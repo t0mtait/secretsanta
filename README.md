@@ -1,4 +1,12 @@
+
+## About
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Minimalist secret santa assignment tool that offers dupe + self-assignment checking and emails everyone their assignees via maileroo
+
+<img width="1512" height="839" alt="image" src="https://github.com/user-attachments/assets/a8f6ec1d-3299-4ba8-820a-307a6f2d1693" />
+
+<img width="1230" height="297" alt="image" src="https://github.com/user-attachments/assets/cc1ea814-d891-4b37-aadb-08e4a0d491f7" />
 
 ## Getting Started
 

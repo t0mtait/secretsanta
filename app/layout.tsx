@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Secret Santa Assigner",
+  title: "Secret Santa Assignment App",
   description: "A simple app to assign Secret Santa pairs",
 };
 

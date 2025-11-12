@@ -56,7 +56,8 @@ export async function POST(req: Request) {
       let fromAddress = MAILEROO_FROM_ADDRESS || "";
       let fromName = MAILEROO_FROM_NAME || "";
       if (!fromAddress) {
-        const parsed = parseFromString(MAILEROO_FROM);
+        // MAILEROO_FROM may be undefined; only parse when it's a non-empty string.
+        const parsed = MAILEROO_FROM ? parseFromString(MAILEROO_FROM) : { name: "", address: "" };
         fromAddress = parsed.address || fromAddress;
         fromName = parsed.name || fromName || "Secret Santa";
       }
